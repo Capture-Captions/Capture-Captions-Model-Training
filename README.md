@@ -10,7 +10,18 @@
 | **VGG16** <ul><li>Epochs = 7</li><li>Batch Size = 64</li><li>Optimizer = Adam</li></ul> |<ul>**Crossentropy loss**<br>*(Lower the better)*<li>loss(train_loss): 2.6297</li><li>val_loss: 3.3486</li>**BLEU Scores on Validation data**<br>*(Higher the better)*<li>BLEU-1: 0.557626</li><li>BLEU-2: 0.317652</li><li>BLEU-3: 0.216636</li><li>BLEU-4: 0.105288</li></ul> |<ul>**k = 3**<br><br>**BLEU Scores on Validation data**<br>*(Higher the better)*<li>BLEU-1: 0.568993</li><li>BLEU-2: 0.326569</li><li>BLEU-3: 0.226629</li><li>BLEU-4: 0.113102</li></ul> |
 | **VGG16** <ul><li>Epochs = 7</li><li>Batch Size = 64</li><li>Optimizer = Adam</li></ul> |<ul>**Crossentropy loss**<br>*(Lower the better)*<li>loss(train_loss): 2.6297</li><li>val_loss: 3.3486</li>**BLEU Scores on Validation data**<br>*(Higher the better)*<li>BLEU-1: 0.557626</li><li>BLEU-2: 0.317652</li><li>BLEU-3: 0.216636</li><li>BLEU-4: 0.105288</li></ul> |<ul>**k = 3**<br><br>**BLEU Scores on Validation data**<br>*(Higher the better)*<li>BLEU-1: 0.568993</li><li>BLEU-2: 0.326569</li><li>BLEU-3: 0.226629</li><li>BLEU-4: 0.113102</li></ul> |
 
-## 2. References
+## 2. Project Pipeline
+
+The project pipeline can be briefly summarized in the following four steps:
+
+* Data Understanding: Here, you need to load the data and understand the representation 
+* Data preprocessing: In this step, you will process both images & captions to the desired format.
+* Train/Test Split: Combine both images & captions to create the train & test dataset.
+* Model-Building: This is the stage where you will create your image captioning model by building Encoder , Attention & Decoder model
+* Model Evaluation: Evaluate the model using greedy search, Beam Search, BLEU score and METEOR score
+
+
+## 3. References
 <ul type="square">
 	<li><a href="https://arxiv.org/pdf/1502.03044v3.pdf">Show, Attend and Tell: Neural Image Caption
 Generation with Visual Attention</a> - Kelvin Xu, Jimmy Ba, Ryan Kiros, Kyunghyun Cho, Aaron Courville, Ruslan Salakhutdinov, Richard Zemel, Yoshua Bengio</li>
