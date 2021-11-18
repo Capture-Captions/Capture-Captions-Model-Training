@@ -12,6 +12,7 @@
 
 ## 2. References
 <ul type="square">
-	<li><a href="https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Vinyals_Show_and_Tell_2015_CVPR_paper.pdf">Show and Tell: A Neural Image Caption Generator</a> - Oriol Vinyals, Alexander Toshev, Samy Bengio, Dumitru Erhan</li>
-	<li><a href="https://arxiv.org/abs/1703.09137">Image Captioning and Classification of Dangerous Situations</a> - Octavio Arriaga, Paul Plöger, Matias Valdenegro-Toro</li>
+	<li><a href="https://arxiv.org/pdf/1502.03044v3.pdf">Show, Attend and Tell: Neural Image Caption
+Generation with Visual Attention</a> - Kelvin Xu, Jimmy Ba, Ryan Kiros, Kyunghyun Cho, Aaron Courville, Ruslan Salakhutdinov, Richard Zemel, Yoshua Bengio</li>
+	<li><a href="https://arxiv.org/pdf/1711.02578.pdf">Image Captioning and Classification of Dangerous Situations</a> - Octavio Arriaga, Paul Plöger, Matias Valdenegro-Toro</li>
 </ul>
