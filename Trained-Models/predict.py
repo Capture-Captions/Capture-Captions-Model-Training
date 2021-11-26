@@ -54,4 +54,4 @@ def main(IMG_PATH):
 
 
 if __name__ == "__main__":
-    main('../TestImages/women-dead.jpg')
+    main('../../TestImages/women-dead.jpg')
